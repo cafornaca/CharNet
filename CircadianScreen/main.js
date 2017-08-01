@@ -102,3 +102,7 @@ function timeOfDay() {
   }
   document.getElementById("container").style.background = color;
 }
+
+// function refreshCountdown() {
+//   var timeLeft = 60 - ( today.getMinutes() + today.getSeconds() );
+// }
