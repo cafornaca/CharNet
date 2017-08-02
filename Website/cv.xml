@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8">
+<cv>
+
+  <entry category="identifying">
+    <name>Charlie Ann Fornaca</name>
+    <address>Walnut Creek, California, USA</address>
+    <phone></phone>
+    <email></email>
+  </entry>
+
+  <education>
+    <evergreen>
+      <degree>BS</degree>
+      <grad>2017</grad>
+      <major>Computer Science</major>
+      <minor></minor>
+      <subfield></subfield>
+      <honors></honors>
+    </evergreen>
+    <ucsb>
+      <degree>BA</degree>
+      <grad>2014</grad>
+      <major>Asian Studies</major>
+      <minor></minor>
+      <subfield>Japanese language & culture</subfield>
+      <honors></honors>
+    </ucsb>
+    <serra>
+      <degree>High School diploma</degree>
+      <grad></grad>
+      <major></major>
+      <minor></minor>
+      <subfield></subfield>
+      <honors>
+        Honor Society
+        Perfect Attendence
+        etc
+      </honors>
+    </serra>
+  </entry>
+
+  <dissertation+thesis>
+    <title></title>
+    <description></description>
+    <theoretical_framework></theoretical_framework>
+    <conclusions></conclusions>
+    <director></director>
+    <readers>
+      <name></name>
+      <reader_department></reader_department>
+    </readers>
+  </entry>
+
+  <awards+honors+fellowships+scholarships+grants>
+    <awards></awards>
+    <honors></honors>
+    <fellowships></fellowships>
+    <scholarships+grants></scholarships+grants>
+    <membership_in_honorary_societies></membership_in_honorary_societies>
+  </awards+honors+fellowships+scholarships+grants>
+
+  <professional_experience>
+    <research_experience></research_experience>
+    <consulting></consulting>
+    <fieldwork></fieldwork>
+    <teaching_experience></teaching_experience>
+    <postdoctoral_work></postdoctoral_work>
+    <career>
+      <kp></kp>
+      <evergreen_computer_center>/<evergreen_computer_center>
+    </career>
+  </professional_experience>
+
+  <publications+invited_papers+exhibits+conference_presentations+etc>
+    <papers_and_publications></papers_and_publications>
+    <programs_and_workshops></programs_and_workshops>
+  </publications+invited_papers+exhibits+conference_presentations+etc>
+
+  Teaching, research interests: list the courses you are prepared to teach and topics that indicate your present and future research directions. If your background would allow you to teach in several fields, you may want to include a list of graduate courses taken.
+  Academic Service: list all departmental and university groups, committees, or task forces on which you served. Student groups are valid as well. You should demonstrate that you have demonstrated leadership and you will assume certain departmental administrative duties if hired. If relevant to the position, community service may also be included.
+  Memberships or professional affiliations: list all professional groups (e.g., American Counseling Association) to which you belong and any offices you have held.
+  Languages: list all languages you read and speak and note those in which you are fluent
+
+</cv>
