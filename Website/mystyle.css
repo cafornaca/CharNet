@@ -12,6 +12,7 @@ html {
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 
 html {
+  background-color: #ebebe0;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
 }
