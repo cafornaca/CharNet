@@ -3,7 +3,8 @@
 
 <head>
 	<title>0xCAFEBABE: H O M E</title>
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="/w3css/3/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<meta name="description" content="Charlie Ann Fornaca personal and professional web page">
 	<meta name="keywords" content="software engineer, artist, cool girl, aesthetic">
 	<meta name="author" content="Charlie Ann Fornaca">
@@ -11,42 +12,48 @@
 </head>
 
 <body>
+	<!-- Navigation -->
+	<nav class="w3-bar w3-black">
+			<a href="#home" class="w3-button w3-bar-item">Home</a>
+			<a href="#code" class="w3-button w3-bar-item">Code</a>
+			<a href="#art" class="w3-button w3-bar-item">Art</a>
+			<a href="#resume" class="w3-button w3-bar-item">Resume/CV</a>
+			<a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+
+<!-- Fancy image: I need a few more probably -->
+<section>
+	<img class="fancyImage" src="blackMarble.jpg" style="width:100%">
+</section>
+
+<!-- Making the fancy images move -->
+<script>
+	var count = 0;
+	slideshow();
+
+	function slideshow(){
+		var i;
+		var x = document.getElementsByClassName("fancyImage");
+		for (i = 0; i < x.length; i++){
+			x[i].style.display = "none";
+		}
+		count++;
+		if (count > x.length) {
+			count = 1;
+		}
+		x[count - 1].style.display = "block";
+		setTimeout(slideshow, 5000);
+	}
+</script>
 
 <div class = "display: inline;">
 	<img src="http://www.marbleoftheworld.com/media/wysiwyg/template/content-quote-marble.jpg" width = 100% alt="" />
 </div>
 
 
-<h1>CHARLIE ANN FORNACA</h1>
 
 
-
-
-
-<h3>About</h3>
-<p>Greetings! My name is Charlie (she/her). I am a programmer and an artist. I'm a California girl living the the Pacific Northwest. I enjoy late 80's/early 90's aesthetic, cute stationery, making arts and crafts, gardening, reading, video games, learning languages, studying, social activism, and training dogs.</p>
-
-<ul>Cirriculum Vitae // resume</ul>
-
-<div style="display: inline;">
-	<img src="http://www.marbleoftheworld.com/media/wysiwyg/template/content-quote-marble.jpg" width="100%" height="40" />
-</div>
-
-<h3>Professional Interests</h3>
-<p>I am interested in robotics technology and programming, artificial intelligence, cyber security, software design, mobile application creation, and accessibility of software/technology.These are all topics I am interested in persuing for graduate school.</p>
-
-<div style="display: inline;">
-	<img src="http://www.marbleoftheworld.com/media/wysiwyg/template/content-quote-marble.jpg" width="100%" height="40" />
-</div>
-
-<h3>SYN/ACK</h3>
-<p>E-mail me at <b>cafornaca[at]yahoo[dot]com</b>. Feel free to praise my awesome website. I was going to make a UDP joke, but I wasn't sure if you'd get it.</p>
-
-<div style="display: inline;">
-	<img src="http://www.marbleoftheworld.com/media/wysiwyg/template/content-quote-marble.jpg" width="100%" height="40" />
-</div>
-
-<img src="https://media.giphy.com/media/7p71Xd0jG9MEo/giphy.gif" align="right" />
+<img src="boneBoy.gif" align="left" />
 
 </body>
 </html>
