@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8">
 <cv>
 
-  <entry category="identifying">
+  <identifying>
     <name>Charlie Ann Fornaca</name>
     <address>Walnut Creek, California, USA</address>
     <phone></phone>
     <email></email>
-  </entry>
+  </identifying>
 
   <education>
-    <evergreen>
+    <school name="The Evergreen State College">
       <degree>BS</degree>
       <grad>2017</grad>
       <major>Computer Science</major>
       <minor></minor>
       <subfield></subfield>
       <honors></honors>
-    </evergreen>
-    <ucsb>
+    </school>
+    <school name="University of California, Santa Barbara">
       <degree>BA</degree>
       <grad>2014</grad>
       <major>Asian Studies</major>
       <minor></minor>
       <subfield>Japanese language & culture</subfield>
       <honors></honors>
-    </ucsb>
-    <serra>
+    </school>
+    <school name="Serra High School">
       <degree>High School diploma</degree>
       <grad></grad>
       <major></major>
@@ -34,10 +34,9 @@
       <honors>
         Honor Society
         Perfect Attendence
-        etc
       </honors>
-    </serra>
-  </entry>
+    </school>
+  </education>
 
   <dissertation+thesis>
     <title></title>
@@ -49,7 +48,7 @@
       <name></name>
       <reader_department></reader_department>
     </readers>
-  </entry>
+  </dissertation+thesis>
 
   <awards+honors+fellowships+scholarships+grants>
     <awards></awards>
