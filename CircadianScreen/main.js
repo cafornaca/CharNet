@@ -100,7 +100,7 @@ function timeOfDay() {
       color = "#990000";
       break;
   }
-  document.getElementById("body").bgcolor = color;
+  document.getElementById("screen").style.backgroundColor = color;
 }
 
 // function refreshCountdown() {
